@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+    int m,n,tot;
+    scanf("%d %d",&m,&n);
+    tot=((m*n+1)/2);
+    printf("%d",tot);
+
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */    
+    return 0;
+}
